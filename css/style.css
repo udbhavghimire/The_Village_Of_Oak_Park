@@ -1,58 +1,60 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif !important;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: black !important;
     font-weight: 800;
 }
 
-.nav-link{
+.nav-link {
     color: #000000 !important;
     text-underline-offset: 5px;
     font-weight: 500;
     padding: 0.5rem 1rem;
     text-decoration-color: #000000;
 }
-.sticky-top {
-    position: sticky;
-    top: 0;
-    z-index: 1020;
-}
+
 .video-size {
     height: 600px;
-    width:auto;
+    width: auto;
     object-fit: cover;
     object-position: center;
     border-radius: 60px;
     position: relative;
-    overflow:hidden;
-    
+    overflow: hidden;
 }
-.main-titlee{
+
+.main-titlee {
     font-weight: 900;
     color: #000000;
     font-size: 2.7rem !important;
 }
-.headline-text{
+
+.headline-text {
     font-size: 1.2rem;
     max-width: 500px;
     line-height: 2rem;
     text-align: justify;
 }
-.fw-mine2{
+
+.fw-mine2 {
     font-weight: 700;
     letter-spacing: 0.4px;
     font-size: 1rem;
 }
-.hero-image{
+
+.hero-image {
     object-fit: cover;
     border-radius: 15px;
     position: relative;
 }
-.btn-mine{
+
+.btn-mine {
     background: #438509;
     border-radius: 5px;
     color: white;
@@ -60,7 +62,8 @@
     /* outline: 3px solid #ff0000; */
     font-weight: 500;
 }
-.btn-mine:hover{
+
+.btn-mine:hover {
     background: #2e5c05;
     border-radius: 5px;
     color: white;
@@ -68,25 +71,86 @@
     /* outline: 3px solid #ff0000; */
     font-weight: 500;
 }
-.title{
+
+.title {
     font-weight: 400;
     color: #000000;
     font-size: 2rem !important;
 }
-.card-img-top{
+
+.card-img-top {
     height: 250px;
     object-fit: cover;
     object-position: top;
     width: 100%;
     border-radius: 5px;
 }
-.svg-icon{
+
+.svg-icon {
     height: 50px;
 }
+
 .fields {
     width: 100%;
     padding: 1rem 1rem;
     border: none;
     border-radius: 8px;
     background-color: #f1f3fa;
+}
+
+.mylist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mylist li {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+}
+
+.mylist li::marker {
+    content: "+";
+    font-weight: bold;
+    color: #000000;
+}
+
+.mylist2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mylist2 li {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+}
+
+.mylist2 li::marker {
+    content: "*";
+    font-weight: bold;
+    color: #000000;
+}
+
+.foot-up-img {
+    opacity: 0.25;
+    margin-bottom: -5px;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+@media (max-width: 700px) {
+    .mess {
+        height: 100px !important;
+    }
+    .video-size {
+        padding-top: 10px;
+        height: auto;
+        width: auto;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 60px;
+        position: relative;
+        overflow: hidden;
+    }
 }
