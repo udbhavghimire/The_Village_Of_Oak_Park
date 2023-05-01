@@ -139,6 +139,16 @@
     width: 100% !important;
 }
 
+.bottomlogo {
+    font-size: 2rem !important;
+    line-height: 1.8rem;
+    color: black;
+}
+
+.bottomlogo:hover {
+    color: black;
+}
+
 @media (max-width: 700px) {
     .mess {
         height: 100px !important;
