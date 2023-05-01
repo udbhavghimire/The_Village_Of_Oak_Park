@@ -32,7 +32,15 @@
 .main-titlee {
     font-weight: 900;
     color: #000000;
-    font-size: 2.7rem !important;
+    font-size: 2.9rem !important;
+}
+
+.main-title2 {
+    font-weight: 700;
+    /* color: #393939; */
+    letter-spacing: 4px;
+    color: #73c130;
+    font-size: 1.7rem !important;
 }
 
 .headline-text {
@@ -46,11 +54,12 @@
     font-weight: 700;
     letter-spacing: 0.4px;
     font-size: 1rem;
+    color: rgb(61, 61, 61);
 }
 
 .hero-image {
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 20px;
     position: relative;
 }
 
@@ -63,6 +72,10 @@
     font-weight: 500;
 }
 
+.flip {
+    /* transform: scale(-1, 1); */
+}
+
 .btn-mine:hover {
     background: #2e5c05;
     border-radius: 5px;
@@ -70,6 +83,21 @@
     /* border: 2px solid #ffffff; */
     /* outline: 3px solid #ff0000; */
     font-weight: 500;
+}
+
+.call-btn {
+    background: #438509;
+    border-radius: 5px;
+    color: white;
+    /* border: 2px solid #ffffff; */
+    /* outline: 3px solid #ff0000; */
+    font-weight: 600;
+    font-size: large;
+}
+
+.call-btn:hover {
+    background-color: #2e5c05;
+    color: white;
 }
 
 .title {
