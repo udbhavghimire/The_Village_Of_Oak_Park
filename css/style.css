@@ -11,13 +11,17 @@
     font-weight: 800;
 }
 
+.img-nav-brand {
+    height: 80px;
+}
+
 .nav-link {
     color: #000000 !important;
     text-underline-offset: 5px;
     font-weight: 500;
     padding: 0.5rem 1rem;
     text-decoration-color: #000000;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .video-size {
@@ -39,8 +43,16 @@
 .main-title2 {
     font-weight: 700;
     /* color: #393939; */
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #73c130;
+    font-size: 1.3rem !important;
+}
+
+.main-title3 {
+    font-weight: 900;
+    /* color: #393939; */
+    letter-spacing: 2px;
+    color: #000000;
     font-size: 1.2rem !important;
 }
 
@@ -58,10 +70,27 @@
     color: rgb(61, 61, 61);
 }
 
+.fotwidth {
+    max-width: 500px;
+    text-align: justify;
+}
+
+.foot-up-img {
+    opacity: 0.25;
+    margin-bottom: -5px;
+    overflow: hidden;
+    width: 100% !important;
+}
+
+.border-left {
+    border-left: 4px solid #73c130;
+    height: 520px;
+}
+
 .hero-image {
     object-fit: cover;
     border-radius: 20px;
-    position: relative;
+    height: 420px;
 }
 
 .btn-mine {
@@ -73,12 +102,18 @@
     font-weight: 500;
     padding-top: 8px;
     padding-bottom: 8px;
+    font-size: 19px;
 }
 
 .flip {
     object-fit: cover;
     height: 400px;
     position: relative;
+}
+
+.flipp {
+    width: 250px;
+    transform: scaleX(-1);
 }
 
 .btn-mine:hover {
@@ -114,13 +149,12 @@
 .card-img-top {
     height: 250px;
     object-fit: cover;
-    object-position: top;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .svg-icon {
-    height: 50px;
+    height: 20px;
 }
 
 .fields {
@@ -160,7 +194,6 @@
 }
 
 .mylist2 li::marker {
-    content: "*";
     font-weight: bold;
     color: #000000;
 }
@@ -235,5 +268,8 @@
         letter-spacing: 0.4px;
         font-size: 0.5rem;
         color: rgb(61, 61, 61);
+    }
+    .border-left {
+        border-left: none
     }
 }
